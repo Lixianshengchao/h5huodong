@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
 	
+	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.jeewxframework</groupId>
+		<groupId>org.h5huodong</groupId>
 		<artifactId>P3-parent</artifactId>
-		<version>2.1-SNAPSHOT</version>
+		<version>2.1.1-SNAPSHOT</version>
 	</parent>
 	
-	<description>P3启动工程</description>
-	<groupId>org.jeewxframework</groupId>
+	<description>捷微-H5活动营销平台</description>
+	<groupId>org.h5huodong</groupId>
 	<artifactId>P3-Web</artifactId>
 	<name>P3-Web</name>
 	<packaging>war</packaging>
@@ -48,7 +48,7 @@
 	                <artifactId>tomcat-maven-plugin</artifactId>
 	                <version>1.1</version>
 	                <configuration>
-	                    <path>/P3-Web</path>
+	                    <path>/jeewx</path>
 	                    <port>8080</port>
 	                    <uriEncoding>UTF-8</uriEncoding>
 	                    <url>http://localhost:8080/manager/html</url>
@@ -97,32 +97,36 @@
 		</testResources>
 	</build>
 	<dependencies>
+		<!-- commons-email -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<!-- commons-email -->
+		
 		<!-- P3 base jar -->
  	    <dependency>
-			<groupId>org.jeewxframework</groupId>
+			<groupId>org.h5huodong</groupId>
 			<artifactId>P3-Base-system</artifactId>
-			<version>2.1-SNAPSHOT</version>
+			<version>2.0.0</version>
 		</dependency>
+		 <dependency>
+			<groupId>org.h5huodong</groupId>
+			<artifactId>P3-Biz-commonweixin</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- P3 base jar -->
 		
- 	    <dependency>
- 	    	<groupId>org.jeewxframework</groupId>
- 	    	<artifactId>P3-Biz-commonftb</artifactId>
- 	    	<version>2.0.0</version>
- 	    </dependency>
- 	    <dependency>
- 	    	<groupId>org.jeewxframework</groupId>
- 	    	<artifactId>P3-Biz-gzbargain</artifactId>
- 	    	<version>2.0.1</version>
- 	    </dependency>
- 	    <dependency>
- 	    	<groupId>org.jeewxframework</groupId>
- 	    	<artifactId>P3-Biz-jiugongge</artifactId>
- 	    	<version>2.0.0</version>
- 	    </dependency>
- 	    <dependency>
- 	    	<groupId>org.jeewxframework</groupId>
- 	    	<artifactId>P3-Biz-shaketicket</artifactId>
- 	    	<version>2.0.0</version>
- 	    </dependency>
+		<dependency>
+			<groupId>org.h5huodong</groupId>
+			<artifactId>P3-Biz-jiugongge</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.h5huodong</groupId>
+			<artifactId>P3-Biz-shaketicket</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 </project>
