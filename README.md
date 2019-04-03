@@ -92,10 +92,10 @@
 ### 五、技术交流
 
 * 在线体验：[http://www.h5huodong.com/system/login.do](http://www.h5huodong.com/system/login.do)
+* 常见问题 : [http://t.cn/EiYasRq](http://www.jeecg.org/forum.php?mod=viewthread&tid=7811&page=1&extra=#pid21231)
 * 技术论坛 ：[www.jeecg.org](http://www.jeecg.org)
 * 技术QQ群 : 97460170
 * 视频教程 : [https://pan.baidu.com/s/1gYDNvRWkritKb6sOMOx4hg](https://pan.baidu.com/s/1gYDNvRWkritKb6sOMOx4hg) (提取码：wq8d)
-* 更多活动下载 : [http://yun.jeecg.org](http://yun.jeecg.org)
 
 
 
